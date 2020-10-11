@@ -29,7 +29,8 @@ which streams the desired video to the monitor.
 This would be used to show videos that represent or promote the school at the open day.
 
 ==== Purpose of the project
-* bla
+* Stream videos
+* Project Presentation
 
 ==== Pre-Project
 Since our project is an extension to a former diploma thesis, we
@@ -39,20 +40,34 @@ that can access the CMS (Content-Management-System).
 == Project Final Result
 
 
+
 == Project Goals
 
 
-== Project Description
 
+== Project Ressources
+
+* Webserver
+* REST-Service
+
+== Technologies
+* Nginx
+* Angular
+* REST
+* Xibo
 
 == Milestones
 
 
 == Project Risks
-* Aufzählung
+* Not finishing
 
 == Projectstart
-Tbd, 3 weeks after the determination.
+Tbd, 2 weeks after the determination.
 
 == Projectend
 28.06.2021
+
+== Project Members
+* Benjamin Ecker
+* Daniel Andricic
