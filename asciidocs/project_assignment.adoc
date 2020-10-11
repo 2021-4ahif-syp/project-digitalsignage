@@ -16,9 +16,11 @@ icon:github-square[link=https://github.com/2021-4ahif-syp/project-digitalsignage
 endif::backend-html5[]
 
 == Projectname
+
 Digital Signage - On Demand Videos
 
-== Project
+== Project Client
+
 Prof. Mag. Dr. Stütz
 
 == Project Background
@@ -29,21 +31,50 @@ which streams the desired video to the monitor.
 This would be used to show videos that represent or promote the school at the open day.
 
 ==== Purpose of the project
-* Stream videos
+* Stream videos and fotos
 * Project Presentation
 
 ==== Pre-Project
+
 Since our project is an extension to a former diploma thesis, we
 have already given a template and for this thesis we should create a client
 that can access the CMS (Content-Management-System).
 
 == Project Final Result
 
+The end result is a web application with a built-in Angular Client that
+accesses the existing REST functionalities of the Home DS (Digital Signage - Server).
+This extension is supposed to send the videos/photos to be streamed to the signage server
+via a rest client and display them on the monitor.
+By authenticating the individual users via OpenID, only authorized persons should
+be able to access the system.
 
 
 == Project Goals
 
+The goal of the project is to have the possibility to present a project
+or to stream videos and photos on the large monitor.
+Students and teachers should have the possibility to display
+a video/photo on the monitor.
 
+== Milestones
+
+|===
+|Milestone |Description
+
+|Insomnia
+|Tested the user-permission on the signage-server.
+|NGINX
+|Configured the NGINX-Server.
+|Angular-Client
+|Front-End implemented.
+|REST-Service
+|Implemented REST-Service.
+|Xibo
+|Tested the REST-Service function.
+|OpenID
+|Access the server without re-authentication
+|===
 
 == Project Ressources
 
@@ -51,23 +82,27 @@ that can access the CMS (Content-Management-System).
 * REST-Service
 
 == Technologies
+
 * Nginx
 * Angular
 * REST
 * Xibo
-
-== Milestones
-
+* OpenID (Authentication)
+* Insomnia (Testing)
 
 == Project Risks
+
 * Not finishing
 
 == Projectstart
+
 Tbd, 2 weeks after the determination.
 
 == Projectend
+
 28.06.2021
 
 == Project Members
+
 * Benjamin Ecker
 * Daniel Andricic
