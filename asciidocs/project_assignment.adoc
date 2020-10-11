@@ -1,0 +1,58 @@
+= Project assignment
+Daniel Andricic Benjamin Ecker
+1.0.0, 2020-10-08: Some notes
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// https://fontawesome.com/v4.7.0/icons/
+icon:github-square[link=https://github.com/2021-4ahif-syp/project-digitalsignage] ‏ ‏ ‎
+endif::backend-html5[]
+
+== Projectname
+Digital Signage - On Demand Videos
+
+== Project
+Prof. Mag. Dr. Stütz
+
+== Project Background
+
+In our school, we have a huge Monitor in the auditorium. This monitor is mostly used for current news, weather service and to present new projects in the school.
+To be able to show videos on this monitor quickly and easily, we would program an app
+which streams the desired video to the monitor.
+This would be used to show videos that represent or promote the school at the open day.
+
+==== Purpose of the project
+* bla
+
+==== Pre-Project
+Since our project is an extension to a former diploma thesis, we
+have already given a template and for this thesis we should create a client
+that can access the CMS (Content-Management-System).
+
+== Project Final Result
+
+
+== Project Goals
+
+
+== Project Description
+
+
+== Milestones
+
+
+== Project Risks
+* Aufzählung
+
+== Projectstart
+Tbd, 3 weeks after the determination.
+
+== Projectend
+28.06.2021
