@@ -76,6 +76,14 @@ a video/photo on the monitor.
 |Access the server without re-authentication
 |===
 
+== Projectstart
+
+Tbd, 2 weeks after the determination.
+
+== Projectend
+
+28.06.2021
+
 == Project Ressources
 
 * Webserver
@@ -93,14 +101,6 @@ a video/photo on the monitor.
 == Project Risks
 
 * Not finishing
-
-== Projectstart
-
-Tbd, 2 weeks after the determination.
-
-== Projectend
-
-28.06.2021
 
 == Project Members
 
