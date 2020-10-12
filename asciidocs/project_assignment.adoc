@@ -26,12 +26,12 @@ Prof. Mag. Dr. Stütz
 == Project Background
 
 In our school, we have a huge Monitor in the auditorium. This monitor is mostly used for current news, weather service and to present new projects in the school.
-To be able to show videos on this monitor quickly and easily, we would program an app
-which streams the desired video to the monitor.
+To be able to show videos on this monitor quickly and easily, the goal would be an app
+which streams the desired video to the display.
 This would be used to show videos that represent or promote the school at the open day.
 
 ==== Purpose of the project
-* Stream videos and fotos
+* Stream videos and fotos on display
 * Project Presentation
 
 ==== Pre-Project
@@ -50,29 +50,30 @@ By authenticating the individual users via OpenID, only authorized persons shoul
 be able to access the system.
 
 
-== Project Goals
+== Project Deliverables
 
-The goal of the project is to have the possibility to present a project
-or to stream videos and photos on the large monitor.
-Students and teachers should have the possibility to display
-a video/photo on the monitor.
+The project client gets a webapp that offers the possibility to stream photos and videos
+to the monitor in the auditorium.
+Only authorized persons can access these functions, this function
+is provided by OpenID.
+OpenID provides that the user only needs to authenticate once.
 
 == Milestones
 
 |===
 |Milestone |Description
 
-|Insomnia
+|Integration of Insomnia.
 |Tested the user-permission on the signage-server.
-|NGINX
+|NGINX Webserver configured.
 |Configured the NGINX-Server.
-|Angular-Client
-|Front-End implemented.
-|REST-Service
+|Angular-Client ready to test.
+|The Front-End is ready to test and is working on the Webserver.
+|REST-Service configured and working.
 |Implemented REST-Service.
-|Xibo
+|Xibo API implemented in the client.
 |Tested the REST-Service function.
-|OpenID
+|OpenID configured.
 |Access the server without re-authentication
 |===
 
@@ -83,11 +84,6 @@ Tbd, 2 weeks after the determination.
 == Projectend
 
 28.06.2021
-
-== Project Ressources
-
-* Webserver
-* REST-Service
 
 == Technologies
 
@@ -100,7 +96,9 @@ Tbd, 2 weeks after the determination.
 
 == Project Risks
 
-* Not finishing
+* Implementation time too short
+* Frameworks never used or no previous knowledge available.
+* Webapp not compatible with the working infrastructure.
 
 == Project Members
 
