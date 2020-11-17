@@ -5,3 +5,5 @@ target/
 asciidocs/revealjs/
 revealjs.zip
 gh-pages
+copytodocs.sh
+remove-adoc.sh
