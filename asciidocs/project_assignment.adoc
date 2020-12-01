@@ -12,7 +12,6 @@ ifndef::imagesdir[:imagesdir: images]
 ifdef::backend-html5[]
 
 // https://fontawesome.com/v4.7.0/icons/
-icon:github-square[link=https://github.com/2021-4ahif-syp/project-digitalsignage] ‏ ‏ ‎
 endif::backend-html5[]
 
 == Projectname

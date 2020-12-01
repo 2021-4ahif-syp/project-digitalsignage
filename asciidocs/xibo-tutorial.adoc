@@ -123,6 +123,9 @@ In der config.env muss ein Password für die Datenbank angegeben werden. +
 Der Host-Name muss auch auf eine gültige mail adresse eingestellt werden. +
 So können Benachrichtigungen an die gesetzte E-Mail versendet werden. +
 
+Besonders zu beachten ist, dass der Name der Tabelle in der Datenbank gleich heißen soll
+wie in der config.env-Datei. +
+
 [Optional] +
 In dieser config-Datei muss man die CM_SERVER_NAME von cms.example.org
 auf eine richtige Domaine ändern. +
@@ -140,3 +143,4 @@ Am Anfang kommt in einen Login-Bildschirm. +
 Man kann sich anfangs noch mit den Standarduser anmelden. +
 Username: xibo-admin +
 Password: password +
+
